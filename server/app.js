@@ -58,7 +58,7 @@ io.on("connection", (socket) => {
     socket.on("message",({room,message})=>{
         // console.log(data);
         if(room===""){
-            socket.broadcast.emit("receive-message",message);
+            socket.emit("receive-message",message);
         }
         else{
             // can use io.to or socket.to here as we are sending to message from one individualt to another(one to one private messge)
