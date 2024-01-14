@@ -51,7 +51,7 @@ const App = () => {
   },[])
   return (
     <Container>
-      <Box sx={{height: 500}}/>
+      <Box sx={{height: 100}}/>
       <Typography variant="h3" component="div" gutterBottom>
         Welcome to ChatUp
       </Typography>
