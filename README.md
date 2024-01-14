@@ -3,4 +3,4 @@
 ## This is a basic SOCKET.IO based chat app made in react.
 
 Deployed on :
-chatup-app.vercel.app/
+https://chatup-app.vercel.app/
