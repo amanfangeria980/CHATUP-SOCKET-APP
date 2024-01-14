@@ -1,0 +1,14 @@
+- Our server has a circuit named "io"
+- Now the circuit has multiple socketss or plugs attached to it (or clients attached to it) and each socket has a socket ID
+- Now there are some events in websocket like "on" and "emit"
+- When we are using emit we are triggering an event
+- When we are using on we will User handler or a listener
+- emit -> this event(with some data)
+- on -> this event(receive some data)
+- for e.g.: 
+    on server side -  io.emit(event1,"Hi")
+    on client side - socket.on(event1,(data)=>{})
+- broadcast => event1(data);
+-to :  for individual message => socket.to().emit()
+-join : new room and multiple people(to join people in a room) => socket.join(room1)
+
